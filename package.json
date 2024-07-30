@@ -1,0 +1,17 @@
+{
+  "name": "asi-burn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "biome check --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@vercel/node": "^3.2.7",
+    "typescript": "^5.5.4"
+  }
+}
